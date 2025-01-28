@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero2site - A Web Development Agency</title>
+    <!-- CSS Template -->
+     <link  rel="stylesheet" href="style.css"/>
+    <!-- Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/4b4f5a1c3a.js" crossorigin="anonymous"></script>
+    <style>
+        body,html{
+            margin: 0;
+            height: 100vh;           
+            background: linear-gradient(-45deg, #000000, #4b474b, #343434, #4b4a4a, #898b83);            
+            background-size: 400% 400%;            
+            animation: bg 12s ease infinite;           
+            } 
+        @keyframes bg{ 
+            0%{
+            background-position: 0% 50%;
+            }
+            50%{
+            background-position: 100% 100%;
+            }
+            100%{
+            background-position: 0% 50%;
+            }    
+        }
+        
+.service{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-heading{
+    margin-top: 10vh;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 10vh;
+    margin-bottom: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 0;
+    padding: 0;
+}
+
+.service-heading h2{
+    background: linear-gradient(-45deg, #ffda69, #ff2d2d, #ffac7b, #f7be15, #deff7b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: bg 12s ease infinite;
+    font-size: 60px;
+    margin:auto;
+    margin-top: 8vh;
+    font-weight: 900;
+}
+
+.offer-text{
+    color:#fa9420;
+}
+
+.services-container{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top:70px;
+    gap:50px;
+}
+
+.service-card1{
+    height:40vh;
+    width:60vh;
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ff9500;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.service-card1:hover{
+    transform: translateY(-15px);
+    transition: 0.4s ease;
+    background: linear-gradient(-45deg, #000000, #4b474b, #343434, #4b4a4a, #898b83);
+    animation: bg 12s ease infinite;
+    background-size: 100% 100%;
+     
+}
+
+.icon img{
+    height:15vh;
+    padding-bottom:10px;
+}
+
+h1{
+    padding-bottom:10px;
+}
+
+    </style>
+</head>
+
+<section class="service" id="service">
+    <div class="service-heading">
+        <h2 class="main-heading">Our Services</h2>
+    </div>
+    <p class="offer-text">-- What We Offer --</p>
+    <div class="services-container">
+        <div class="service-card1">
+            <div class="icon">
+                <img src="img/app-development (3).png" alt="web-dev"/>
+                <h1>Custom Web Development</h1>
+                <p>Custom websites tailored to your brand's needs. User-friendly interfaces for seamless navigation. Responsive design for optimal viewing on all devices.</p>
+            </div>
+        </div>
+        <div class="service-card1">
+            <div class="icon">
+                <img src="img/app-development.png" alt="web-dev"/>
+                <h1>App Development</h1>
+                <p>Crafting immersive mobile experiences through native and cross-platform app development. Focused on user-centric design and innovative solutions to elevate your brand.</p>
+            </div>
+        </div>
+        <div class="service-card1">
+            <div class="icon">
+                <img src="img/web-design.png" alt="web-dev"/>
+                <h1>UI/Ux & Graphic Design</h1>
+                <p>Elevate your brand’s visual identity with our expert UI/UX and graphic design services. We bring your vision to life through immersive user experiences and stunning graphic assets.</p>
+            </div>
+        </div>
+        <div class="service-card1">
+            <div class="icon">
+                <img src="img/shopping.png" alt="web-dev"/>
+                <h1>E-commerce Website</h1>
+                <p> Establish a strong online presence with our comprehensive e-commerce website services. We create seamless, secure, and visually captivating online storefronts that drive sales and enhance customer satisfaction.</p>
+            </div>
+        </div>
+        <div class="service-card1">
+            <div class="icon">
+                <img src="img/erp (1).png" alt="web-dev"/>
+                <h1>ERP Product Development</h1>
+                <p>Empower your business with tailored ERP solutions designed to streamline operations and drive efficiency. Our ERP product development team specializes in creating scalable, customizable, and integrated software solutions.</p>
+            </div>
+        </div>
+        <div class="service-card1">
+            <div class="icon">
+                <img src="img/program-error.png" alt="web-dev"/>
+                <h1>No-code Web Development</h1>
+                <p> Bring your digital ideas to life without extensive programming knowledge. Our no-code web development services empower you to create and deploy web applications with ease in short time.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer" id="footer">
+    <div class="footer-section">
+        <div class="footer1">
+            <a href="" class="company">Zero<span style="color:#fff;">2</span>site</a>
+            <p>Growth Based Digital Agency to make your Digital Presence.</p>
+            <a href="" class="company-contact">Contact us ></a>
+        </div>
+        <div class="footer2">
+            <h1>Company</h1>
+            <ol>
+                <li><a href="">> Home</a></li>
+                <li><a href="">> Our Services</a></li>
+                <li><a href="">> Our Works</a></li>
+                <li><a href="">> Gallery</a></li>
+                <li><a href="">> Contact us</a></li>
+            </ol>
+        </div>
+    </div>
+   </footer>
+
+   <!-- Notification Section -->
+    <div class="notification">
+        <p>Copyright © 2024. All rights reserved by <a href="#">Zero2site</a></p>
+    </div>
